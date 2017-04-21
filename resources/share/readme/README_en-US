@@ -1,0 +1,105 @@
+
+------------------------------------------------------------
+Welcome
+------------------------------------------------------------
+
+------------------------------------------------------------
+OOo4Kids 1.3.2 ReadMe
+------------------------------------------------------------
+
+For latest updates to this readme file, see http://wiki.OOo4Kids.org/welcome/readme.html
+Dear User
+
+This file contains important information about this program. Please read this information very carefully before starting work.
+
+The OOo4Kids.org Community, responsible for the development of this product, would like to invite you to participate as a community member. As a new user, you can check out the OOo4Kids site with helpful user information at 
+
+Also read the sections below about getting involved in the OOo4Kids.org project. 
+
+------------------------------------------------------------
+Is OOo4Kids really free for any user? 
+------------------------------------------------------------
+
+
+OOo4Kids is free for use by everybody. You may take this copy of OOo4Kids and install it on as many computers as you like, and use it for any purpose you like (including commercial, government, public administration and educational use). For further details see the license text delivered together with OOo4Kids or http://www.OOo4Kids.org/license.html 
+
+------------------------------------------------------------
+Why is OOo4Kids free for any user?
+------------------------------------------------------------
+
+
+
+			You can use this copy of OOo4Kids today free of charge because individual contributors and corporate sponsors have designed, developed, tested, translated, documented, supported, marketed, and helped in many other ways to make OOo4Kids what it is today - the world's leading open-source office software.
+If you appreciate their efforts, and would like to ensure OOo4Kids.org continues into the future, please consider contributing to the project - see http://contributing.OOo4Kids.org for details. Everyone has a contribution to make.
+
+------------------------------------------------------------
+Notes on Installation
+------------------------------------------------------------
+
+System Requirements:
+
+- Linux Kernel version 2.4 or higher
+- glibc2 version 2.3.2 or higher
+- gtk version 2.2.0 or higher
+- Pentium compatible PC (Pentium III or Athlon recommended)
+- 256 MB RAM (512 MB RAM recommended)
+- 300 MB available hard disk space
+- X Server with 1024x768 resolution (higher resolution recommended), with at least 256 colors
+- Window Manager
+
+There is a wide variety of Linux distributions, and even within the same distribution there may be different installation options (KDE vs Gnome, etc.). Some distributions ship with their own ‘native’ version of OOo4Kids, which may have different features from this Community OOo4Kids. Sometimes you can install the Community OOo4Kids alongside the ‘native’ version. However, it’s usually safer to remove the ‘native’ version before installing this Community version. Consult the documentation for your distribution for details of how to do this. 
+
+It is recommended that you always backup your system before you remove or install software.
+
+------------------------------------------------------------
+Problems During Program Startup
+------------------------------------------------------------
+
+If you experience OOo4Kids startup problems (most notably while using Gnome) please 'unset' the SESSION_MANAGER environment variable inside the shell you use to start OOo4Kids. This can be done by adding the line "unset SESSION_MANAGER" to the beginning of the soffice shell script found in the "[office folder]/program" directory.
+
+Difficulties starting OOo4Kids (e.g. applications hang) as well as problems with the screen display are often caused by the graphics card driver. If these problems occur, please update your graphics card driver or try using the graphics driver delivered with your operating system. Difficulties displaying 3D objects can often be solved by deactivating the option "Use OpenGL" under 'Tools - Options - OOo4Kids - View - 3D view'.
+
+Please note that copy and paste via clipboard between OOo4Kids 1.x and OOo4Kids 1.3.2 might not work in OOo4Kids.org format. If that happens, choose 'Edit - Paste Special' and choose a format other than OOo4Kids, or open the document in OOo4Kids 1.3.2 directly.
+
+Please make sure you have enough free memory in the temporary directory on your system and that read, write and run access rights have been granted. Close all other programs before starting the installation.
+
+------------------------------------------------------------
+Shortcut Keys
+------------------------------------------------------------
+
+Only shortcut keys (key combinations) not used by the operating system can be used in OOo4Kids. If a key combination in OOo4Kids does not work as described in the OOo4Kids Help, check if that shortcut is already used by the operating system. To rectify such conflicts, you can change the keys assigned by your operating system. Alternatively, you can change almost any key assignment in OOo4Kids. For more information on this topic, refer to the OOo4Kids Help or the Help documentation of your operating system.
+
+Due to a conflict with input method switching on multiple platforms, the following shortcut keys required to be changed at last minute:
+
+- Ctrl-Space is now Ctrl-Shift-Space
+- Ctrl-Shift-Space is now Ctrl-M
+
+------------------------------------------------------------
+File Locking
+------------------------------------------------------------
+
+In the default setting, file locking is turned on in OOo4Kids. To deactivate it, you have to set the appropriate environment variables SAL_ENABLE_FILE_LOCKING=0 and export SAL_ENABLE_FILE_LOCKING. These entries are already in enabled form in the soffice script file.
+
+Warning: The activated file locking feature can cause problems with Solaris 2.5.1 and 2.7 used in conjunction with Linux NFS 2.0. If your system environment has these parameters, we strongly recommend that you avoid using the file locking feature. Otherwise, OOo4Kids will hang when you try to open a file from a NFS mounted directory from a Linux computer.
+
+------------------------------------------------------------
+User Support
+------------------------------------------------------------
+
+The main support page http://wiki.OOo4Kids.org/offers various possibilities for help with OOo4Kids. Your question may have already been answered - check the Community Forum.http://wiki.OOo4Kids.org.
+
+Also check the FAQ section at http://wiki.OOo4Kids.org/FAQ.
+
+
+We hope you enjoy working with the new OOo4Kids 1.3.2 and will join us online.
+
+The OOo4Kids.org Community
+
+
+
+
+------------------------------------------------------------
+Used / Modified Source Code
+------------------------------------------------------------
+
+Portions Copyright 1998, 1999 James Clark. Portions Copyright 1996, 1998 Netscape Communications Corporation.
