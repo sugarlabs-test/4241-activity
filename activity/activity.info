@@ -6,3 +6,4 @@ activity_version = 3
 host_version = 1
 show_launcher = yes
 exec = sugarOOo4Kids
+License = Unknown
